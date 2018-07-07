@@ -1,0 +1,13 @@
+﻿bubbleSort( nums : list of sortable items)
+n = length(nums);
+loop
+	swapped = false
+	for i = 1 to n-1 // setup number of iteration equal to length of list - 1
+		//is swap needed?
+		if nums[i-1] > nums[i] then //swap them and note it by setting swapped bit
+			swap (nums[i-1], nums[i] )
+			swapped = true
+		end if
+	end for
+until swapped is false or end of list size
+end bubbleSort
