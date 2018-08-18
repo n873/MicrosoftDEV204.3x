@@ -3,7 +3,7 @@ using Xunit;
 
 namespace LinearSearch
 {
-    public class UnitTest1
+    public class LinearSearchTest
     {
         [Fact]
         public void Test1()
