@@ -18,5 +18,5 @@ namespace Shape
 
         public decimal Radius { get; }
         public decimal Height { get; }
-    } 
+    }
 }

@@ -16,7 +16,7 @@ namespace BubbleSort
 
         public BubbleSortTest()
         {
-            #region Unsorted List of Bouncy Balls 
+            #region Unsorted List of Bouncy Balls
             var random = new Random();
 
             ballSizes = new int[6];

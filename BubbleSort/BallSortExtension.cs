@@ -41,7 +41,7 @@ namespace BubbleSort.Extensions
                     for (var i = 0; i < balls.Count - 1; i++)
                     {
                         // Here we use the i for the position in the array
-                        // So i is the first value to compare and i+1compares the adjacent valie
+                        // So i is the first value to compare and i+1 compares the adjacent valie
                         // Once i is incremented at the end of this loop, we compare the next two sets of values, etc.
                         if (balls[i].Size > balls[i + 1].Size)
                         {
